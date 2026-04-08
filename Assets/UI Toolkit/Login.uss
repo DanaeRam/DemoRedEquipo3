@@ -1,0 +1,31 @@
+.contenedor {
+    flex-direction: column;
+    width: 320px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    background-color: White;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.titulo {
+    font-size: 24px;
+    unity-font-style: bold;
+    margin-bottom: 15px;
+}
+
+.usuario {
+    font-size: 14px;
+    font-style: normal;
+    font-color: black;
+}
+
+.password {
+    font-size: 14px;
+    font-style: normal;
+    font-color: black;
+}
