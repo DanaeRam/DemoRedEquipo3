@@ -5,7 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
-    background-color: White;
+    background-color: white;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -14,18 +14,26 @@
 
 .titulo {
     font-size: 24px;
-    unity-font-style: bold;
+    font-weight: bold;
     margin-bottom: 15px;
 }
 
 .usuario {
     font-size: 14px;
-    font-style: normal;
-    font-color: black;
+    color: black;
+    margin-bottom: 8px;
 }
 
 .password {
     font-size: 14px;
-    font-style: normal;
-    font-color: black;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.mensaje {
+    margin-top: 12px;
+    font-size: 13px;
+    font-weight: bold;
+    color: red;
+    text-align: middle-center;
 }
