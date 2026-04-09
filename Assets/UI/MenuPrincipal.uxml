@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuPrincipal.uss?fileID=7433441132597879392&amp;guid=1b8d903b1e34848c396c1b841f79ae37&amp;type=3#MenuPrincipal"/>
+    <ui:VisualElement name="MenuPrincipal" class="menu" style="flex-grow: 1;">
+        <ui:Label text="Menú Principal" name="Titulo" class="titulo" style="font-size: 72px; -unity-font-style: bold; color: rgb(255, 255, 255); top: auto; position: relative; flex-direction: column; align-self: center; margin-top: 50px; padding-top: 0; padding-left: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding-bottom: 0; padding-right: 0;"/>
+        <ui:VisualElement name="Botones" class="botones" style="flex-grow: 0; flex-direction: row; justify-content: space-around; align-items: center; align-self: center; align-content: center; width: 80%; height: 791px;">
+            <ui:Button text="Jugar X" name="BotonJugarX" class="boton-juego" style="-unity-text-align: middle-center; align-items: center; justify-content: center; align-self: auto; align-content: center; background-color: rgba(188, 188, 188, 0);"/>
+            <ui:Button text="Jugar Mapa" name="BotonJugarMapa" class="boton-juego" style="-unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(188, 188, 188, 0);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
