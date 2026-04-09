@@ -1,4 +1,9 @@
 .contenedor {
+    scale: 2.5;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    translate: -50% -50%;
     flex-direction: column;
     width: 320px;
     padding: 20px;

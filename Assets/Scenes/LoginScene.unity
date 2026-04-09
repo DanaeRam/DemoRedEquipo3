@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
-  m_PanelSettings: {fileID: 11400000, guid: 61ee9c83a22d647a5ada8c1f16e31d96, type: 2}
+  m_PanelSettings: {fileID: 11400000, guid: 81a26369aded84ccd823898c95e9df49, type: 2}
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 9c5e8719bb52741d6bdf2cacd84957fe, type: 3}
   m_SortingOrder: 0
@@ -408,6 +408,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 057a6b1c5a14742d49c377e9e5779882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Login
+  urlLogin: http://localhost:3000/login
+  siguienteEscena: EscenaMenu
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

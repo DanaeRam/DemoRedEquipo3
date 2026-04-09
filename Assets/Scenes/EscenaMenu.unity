@@ -412,9 +412,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1241798388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0799fcd83daf6dd4db6aff3a1f1a0a40, type: 3}
+  m_Script: {fileID: 11500000, guid: c9453cdacaa7f0747b5f47c5ba9b2169, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Menu
+  m_EditorClassIdentifier: Assembly-CSharp::Logout
+  urlLogout: http://localhost:3000/logout
+  escenaLogin: LoginScene
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
