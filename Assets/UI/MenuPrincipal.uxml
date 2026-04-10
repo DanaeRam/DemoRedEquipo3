@@ -8,6 +8,6 @@
             <ui:Button text="Jugar X" name="BotonJugarX" class="boton-juego" style="-unity-text-align: middle-center; align-items: center; justify-content: center; align-self: auto; align-content: center; background-color: rgba(188, 188, 188, 0);"/>
             <ui:Button text="Jugar Mapa" name="BotonJugarMapa" class="boton-juego" style="-unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(188, 188, 188, 0);"/>
         </ui:VisualElement>
-        <ui:Button text="Cerrar sesión" name="BotonCerrarSesion" class="boton-juego" style="font-size: 30px;"/>
+        <ui:Button text="Cerrar sesión" name="BotonCerrarSesion" class="boton-juego" style="font-size: 30px; background-color: rgba(0, 0, 0, 0);"/>
     </ui:VisualElement>
 </ui:UXML>
